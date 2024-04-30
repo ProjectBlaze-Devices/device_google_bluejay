@@ -161,3 +161,6 @@ PRODUCT_PACKAGES += \
 
 # Properties
 TARGET_VENDOR_PROP := $(LOCAL_PATH)/vendor.prop
+
+# Gcam
+include vendor/gcam/gcam.mk
