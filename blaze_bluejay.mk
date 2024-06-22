@@ -6,6 +6,7 @@
 
 # Inherit some common blaze stuff.
 TARGET_DISABLE_EPPE := true
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
 $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
 # Inherit device configuration
@@ -28,7 +29,7 @@ TARGET_SUPPORTS_BLUR := true
 BLAZE_BUILD_TYPE := OFFICIAL
 BLAZE_MAINTAINER := CYB3R0ID694
 
-WITH_GAPPS := true
+#WITH_GAPPS := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=bluejay \
